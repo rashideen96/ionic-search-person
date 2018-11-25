@@ -15,7 +15,7 @@ import { REPOSITORY_LIST } from "../../mocks/repository.mocks";
 
 
 @Injectable()
-export class GithubServiceProvider {
+export class GithubServices {
 
   constructor() {
     console.log('connected to services.....');

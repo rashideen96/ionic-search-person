@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { GithubServiceProvider } from '../providers/github-service/github-service';
+import { GithubServices } from '../providers/github-service/github-service';
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import { GithubServiceProvider } from '../providers/github-service/github-servic
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    GithubServiceProvider
+    GithubServices
   ]
 })
 export class AppModule {}

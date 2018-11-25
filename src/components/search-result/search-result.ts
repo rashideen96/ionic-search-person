@@ -15,4 +15,8 @@ export class SearchResultComponent {
 
   @Input() user:User
 
+  getInfo():void{
+    console.log('jkashdkjahdkjasdhkjdhak');
+  }
+
 }
